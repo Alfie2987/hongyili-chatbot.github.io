@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+
+  <body class="container mx-auto px-4 md:px-16 tracking-wide bg-slate-50 dark:bg-slate-800 dark:text-white">
+    {% include navbar.html %}
+
+    <script type="text/javascript">
+      document.oncontextmenu = function() {
+        return false;
+      };
+    
+      document.onkeydown = function(e) {
+        if (e.keyCode == 123) {
+           return false;
+        }
+      };
+    </script>
+    <style type="text/css">
+      .imag{
+        position: relative;
+        width: 100%;
+        margin: 0 0 0 0;
+       }
+      .imshar{
+        position: absolute;
+        z-index: 100;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        opacity: 0;
+       }
+      .imag img{
+        display: block;
+        width: 100%;
+       }
+    </style>  
+    <div>
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+    {% include up_button.html %}
+  </body>
+</html>

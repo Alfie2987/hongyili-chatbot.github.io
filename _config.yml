@@ -1,0 +1,27 @@
+domain: hongyili-hl.github.io
+url: https://hongyili-hl.github.io
+
+title: HONGYI'S WEBSITE
+email: l1093180752hye@outlook.com
+author: yy
+
+lang: en
+
+plugins:
+  - jekyll-seo-tag
+
+color: "#13ccf9" 
+
+#disqus:
+#  shortname: Hongye-Li
+#
+rrss:
+  # discord: hoola
+  # facebook: hola
+  # twitter: Hola
+  # instagram: Hola
+  # pinterest: hola
+  # telegram: 123
+  email: mailto:hongyi_liii@outlook.com
+  linkedin: https://www.linkedin.com/in/hongyili-hl
+  whatsapp: https://wa.me/+12679001976
